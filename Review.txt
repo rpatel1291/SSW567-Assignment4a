@@ -9,4 +9,3 @@ Assignment 4a Review
    to check how many commits I have done for that repo was a bit confusing. I was not able to see it when going through the
    JSON result when calling the API. Besides that I was able to get all the test cases to run. In the README.md file has the Travis
    tag running too.
-   
