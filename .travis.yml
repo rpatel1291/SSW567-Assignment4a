@@ -6,4 +6,4 @@ install:
   - pip install pytest
 # command to run tests
 script:
-  - python -m unitest MainTest.py
+  - python -m pytest MainTest.py
