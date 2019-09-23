@@ -1,0 +1,12 @@
+SSW567
+Fall 2019
+Ravi Patel
+
+Assignment 4a Review
+
+   During the assignment, I was able to create the test cases first and build the class off the test cases. Only problem
+   I ran into in this assignment was the test for number of commits. I was able to fo through all of my repos but writing a test case
+   to check how many commits I have done for that repo was a bit confusing. I was not able to see it when going through the
+   JSON result when calling the API. Besides that I was able to get all the test cases to run. In the README.md file has the Travis
+   tag running too.
+   
