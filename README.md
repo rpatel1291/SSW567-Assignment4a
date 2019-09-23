@@ -24,7 +24,7 @@ Repo: Square567 Number of commits: 27
 ### Implementation requirements:
 
 You should implement the application in Python 3.X, same as what you have been using for other assignments.
-Retrieving a user's repositories:
+#### Retrieving a user's repositories:
 
 To retrieve a user's list of repositories you can use this GitHub API:
 ```
@@ -37,7 +37,8 @@ For example, for the user "richkempinski" the URL would be:
 https://api.github.com/users/richkempinski/repos
 ```
 Put this URL into your browser to see the list of json results that are returned.  You should see that one of the repositories returned has the name "hellogitworld"
-Retrieving the commits of a repository:
+
+#### Retrieving the commits of a repository:
 To retrieve the commits for a specific user repository, use this API:
 ```
 https://api.github.com/repos/<ID>/<REPO>/commits
@@ -48,13 +49,13 @@ For example, for the user "richkempinski" and for the repository "hellogitworld"
 https://api.github.com/repos/richkempinski/hellogitworld/commits
 ```
 Put this URL into the browser to see the list of commits for the repo.
-Recommended Modules:
+#### Recommended Modules:
 You should use these modules in your program to make requests and to handle the results.
 import requests
 The requests module can be used to request data from the GitHub API service.
 import json
 The json module can be used to parse the json response data from the GitHub API.
-Important:
+# Important:
 The purpose of this assignment is NOT about writing a complex or pretty function.  This should be a simple implementation, and in fact, the implementation is small relative to the Triangle programming assignment.  But think about how you will test the function and how you can make testing easy to implement. 
 Design and write the program in a way that will make it easy for anyone to test.
 In addition to the function you should also include some unit tests similar to how you tested the Triangle program in HW 02a to prove to yourself that the program is behaving correctly.
@@ -72,7 +73,7 @@ install:
 script:
   - <YOU PUT YOUR COMMAND HERE>
 ```
-Deliverables:
+# Deliverables:
 You have 2 deliverables for this assignment:
 1. The GitHub URL to the repository containing your code.   
 You should link this application to Travis-ci to make sure that the code builds.  The README should contain a badge that indicates that the build is successful and that your tests pass, Follow the same pattern as was done in the previous assignment.
